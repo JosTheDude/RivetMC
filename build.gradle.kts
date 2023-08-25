@@ -9,13 +9,9 @@ plugins {
 group = "rivetmc"
 version = "1.0"
 
-repositories {
-    mavenCentral()
-    mavenLocal()
-}
-
 dependencies {
     implementation(project(":common"))
+    implementation(project(":velocity"))
 }
 
 subprojects {
@@ -27,11 +23,14 @@ subprojects {
 allprojects {
     repositories {
         mavenCentral()
+        maven("https://jitpack.io")
         mavenLocal()
     }
 
     dependencies {
         compileOnly(kotlin("stdlib-jdk8"))
+        implementation("com.github.rivet-gg:rivet-java:cf2dde7401")
+        implementation("com.fasterxml.jackson.core:jackson-core:2.12.3")
     }
 
     tasks {

@@ -8,4 +8,4 @@
  */
 
 rootProject.name = "RivetMC"
-include("common")
+include("common", "velocity")
