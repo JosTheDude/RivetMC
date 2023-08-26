@@ -9,3 +9,4 @@
 
 rootProject.name = "RivetMC"
 include("common", "velocity")
+include("bungeecord")
