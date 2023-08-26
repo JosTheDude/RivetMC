@@ -10,7 +10,6 @@ group = "rivetmc"
 version = "1.0"
 
 dependencies {
-    implementation(project(":common"))
     implementation(project(":velocity"))
 }
 
