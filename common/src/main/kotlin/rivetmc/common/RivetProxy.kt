@@ -3,9 +3,9 @@ package rivetmc.common
 import com.rivet.api.RivetApiClient
 
 /**
- * This is an extendable class that is used to represent a minecraft proxy.
+ * This is a wrapper for the rivet api client, used to easily interact with the Rivet SDK.
  */
-abstract class RivetProxy {
+class RivetProxy {
 
     private lateinit var _client: RivetApiClient
     val client: RivetApiClient
