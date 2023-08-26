@@ -16,4 +16,4 @@ Coming Soon.
 
 ## Credits & Acknowledgements
 - [Rivet](https://rivet.gg/)
-- [Santio's Rivet SDK](https://github.com/SantioMC/rivet-sdk)
+- [Santio's Rivet SDK](https://github.com/SantioMC/rivet-java-sdk)
