@@ -34,3 +34,6 @@ gradle-app.setting
 
 # Maven files
 target/
+
+### Rivet ###
+.rivet/
