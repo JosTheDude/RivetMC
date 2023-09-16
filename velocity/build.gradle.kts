@@ -1,5 +1,3 @@
-import org.jetbrains.kotlin.kapt3.base.Kapt.kapt
-
 group = "rivetmc.velocity"
 version = "1.0-SNAPSHOT"
 

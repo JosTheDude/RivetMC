@@ -22,13 +22,12 @@ subprojects {
 allprojects {
     repositories {
         mavenCentral()
-        maven("https://jitpack.io")
         mavenLocal()
     }
 
     dependencies {
         compileOnly(kotlin("stdlib-jdk8"))
-        implementation("com.github.rivet-gg:rivet-java:cf2dde7401")
+        implementation("gg.rivet:api:v23.1.0-rc4")
         implementation("com.fasterxml.jackson.core:jackson-core:2.12.3")
     }
 

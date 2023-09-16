@@ -4,9 +4,6 @@
 #  game made, create on at https://hub.rivet.gg/
 #
 
-# The token for the game, you can find this on the API section of the game dashboard.
-token: pub_rivet_token
-
 # The environment is to dictate weather or not to use Rivet Cloud or a self-hosted Rivet instance.
 # If you're using cloud, you can leave it as the default (PRODUCTION), however if you're trying
 # to use a self-hosted instance, you'll need to change this to have a few more details.
